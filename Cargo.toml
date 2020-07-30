@@ -1,0 +1,21 @@
+[package]
+name = "stateful_async_worker"
+version = "0.1.0"
+authors = ["Tom Heimbrodt <heimbrodt@posteo.de>"]
+edition = "2018"
+license = "MIT"
+keywords = ["async", "future", "futures", "threading", "worker"]
+categories = ["asynchronous", "concurrency"]
+description = "Asynchronous stateful worker threads utilizable as futures"
+repository = "https://github.com/tom-heimbrodt/stateful_async_worker"
+homepage = "https://github.com/tom-heimbrodt/stateful_async_worker"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossbeam = "0.7"
+futures = "0.3"
+num_cpus = "0.1"
+
+[workspace]
