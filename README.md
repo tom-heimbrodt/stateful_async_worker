@@ -1,3 +1,4 @@
+![Rust](https://github.com/tom-heimbrodt/stateful_async_worker/workflows/Rust/badge.svg)
 [![Docs.rs](https://docs.rs/stateful_async_worker/badge.svg)](https://docs.rs/stateful_async_worker)
 [![Crates.io](https://img.shields.io/crates/v/stateful_async_worker)](https://crates.io/crates/stateful_async_worker)
 [![Crates.io](https://img.shields.io/crates/d/stateful_async_worker)](https://crates.io/crates/stateful_async_worker)
