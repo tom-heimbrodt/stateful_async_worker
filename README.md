@@ -1,11 +1,16 @@
+[![Docs.rs](https://docs.rs/stateful_async_worker/badge.svg)](https://docs.rs/stateful_async_worker)
+[![Crates.io](https://img.shields.io/crates/v/stateful_async_worker)](https://crates.io/crates/stateful_async_worker)
+[![Crates.io](https://img.shields.io/crates/d/stateful_async_worker)](https://crates.io/crates/stateful_async_worker)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/tom-heimbrodt/stateful_async_worker/blob/master/LICENSE)
+
 Stateful async worker provides worker thread structures to allow
 the execution of synchronous functions or closures in the background
 and asynchronously access the result as future.
 
 To execute multiple functions at the same time
-[`ThreadPool`](src/thread_pool.rs) is
+[`ThreadPool`](https://docs.rs/stateful_async_worker/*/stateful_async_worker/struct.ThreadPool.html) is
 helpful. For inherently single threaded operations like disk I/O
-[`WorkerThread`](src/worker_thread.rs) should be sufficient.
+[`WorkerThread`](https://docs.rs/stateful_async_worker/*/stateful_async_worker/struct.WorkerThread.html) should be sufficient.
 
 # Example
 ```
