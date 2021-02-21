@@ -39,7 +39,9 @@ impl<T> MutexFuture<T> {
             waker = inner.waker.take();
         }
         // wake up atfer lock has been dropped
-        waker.unwrap().wake();
+        if let Some(waker) = waker {
+            waker.wake();
+        }
     }
 }
 
